@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery - Evil Dead Rise</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anta&family=Creepster&family=Kalam:wght@300;400;700&family=Nosifer&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            font-family: Arial, sans-serif;
+            color: #eee;
+        }
+
+        header {
+            background-color: #aa1945;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #660000;
+        }
+
+        nav {
+            background-color: #222;
+            text-align: center;
+            padding: 10px;
+            font-family: "Kalam", cursive;
+            font-weight: 300;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid transparent;
+            transition: 0.3s;
+        }
+
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 50px;
+            font-family: "Nosifer", sans-serif;
+            font-weight: 400;
+        }
+
+        h2 {
+            color: #aa1945;
+            font-family: "Creepster", system-ui;
+            font-weight: 400;
+            font-size: 30px;
+            border-bottom: 3px solid #aa1945;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        .blood-divider {
+            height: 4px;
+            background: linear-gradient(to right, #660000, #aa1945, #660000);
+            margin: 20px 0;
+        }
+
+        .gallery {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            background-color: #1b1b1b;
+            border: 3px solid #aa1945;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 20px;
+        
+        }
+
+        .gallery-item img {
+            width: 70%;
+            height: 60%;
+            border-radius: 8px;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #ccc;
+            font-family: "Kalam", cursive;
+        }
+
+        footer {
+            background-color: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 30px;
+            margin-top: 20px;
+            font-size: 18px;
+            border-top: 5px solid #660000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Evil Dead Rise</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="story.html">Story</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <main>
+        <h2>Gallery</h2>
+        <div class="blood-divider"></div>
+        <p>Check out some chilling moments from the movie:</p>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="img3.jpg" alt="Cast Image">
+                <div class="caption">The cursed family before the horrors began.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img2.jpg" alt="Scene from Movie">
+                <div class="caption">A blood-soaked hallway — no one makes it out alive.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img.jpg" alt="Possessed Character">
+                <div class="caption">Eyes of the possessed — empty yet full of rage.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img1.jpg" alt="Book of the Dead">
+                <div class="caption">The Book of the Dead — the source of all evil.</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Evil Dead Fans Club | Beware the Book of the Dead
+    </footer>
+</body>
+</html>
